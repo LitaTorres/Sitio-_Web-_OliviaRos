@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-arriba-abajo {
+    background-color:#373A3C;
+}
+
+header {
+    background-image: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-mis-trabajos {
+    background-color: #17A2B8 ;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* no usar width (por ej width 25%) xq no es necesario  si trabajamos con col 
+y tb % la tarjeta se adapta en base al % x eso nunca va a 
+ser necesario que baje a la otra fila xq se adapta al 100% 
+Yo había usado . card { width = 25%;
+*/
+
+.card img { 
+    height: 10rem;
+}
+
+.footer p {
+    font-weight: 400;
+}
+
